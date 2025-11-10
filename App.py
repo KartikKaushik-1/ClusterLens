@@ -88,7 +88,7 @@ st.set_page_config(
     page_title = "ClusterLens",
     page_icon = "image/logo.png",
     layout = "wide")
-st.logo("image/logo.png", size = "large", icon_image = "image/logo.png")
+st.logo("image/logo.png", size = "large")
 
 
 #--Page Dictionary--#
