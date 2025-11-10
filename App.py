@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 import streamlit as st
 
 if "role" not in st.session_state:
