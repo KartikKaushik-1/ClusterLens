@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
 
 if "role" not in st.session_state:
     st.session_state.role = None
