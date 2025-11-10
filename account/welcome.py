@@ -30,7 +30,7 @@ with col2:
     with c2:
         # Add a logo or image
         st.image(
-            "image/logo.png",
+            "images/logo.png",
             caption="Your data, clearly segmented", width = 300
         )
 st.markdown("---")     
