@@ -34,7 +34,7 @@ with col2:
             caption="Your data, clearly segmented", width = 300
         )
 st.markdown("---")     
-st.image("image/welcome_cluster_flow.png", caption = "Work flow of ClusterLens", use_container_width = True)
+st.image("images/welcome_cluster_flow.png", caption = "Work flow of ClusterLens", use_container_width = True)
 
 st.markdown("---")
 st.header("Why this is useful")
