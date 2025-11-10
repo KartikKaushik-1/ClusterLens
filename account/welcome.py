@@ -30,11 +30,11 @@ with col2:
     with c2:
         # Add a logo or image
         st.image(
-            "images/logo.png",
+            "Images/logo.png",
             caption="Your data, clearly segmented", width = 300
         )
 st.markdown("---")     
-st.image("images/welcome_cluster_flow.png", caption = "Work flow of ClusterLens", use_container_width = True)
+st.image("Images/welcome_cluster_flow.png", caption = "Work flow of ClusterLens", use_container_width = True)
 
 st.markdown("---")
 st.header("Why this is useful")

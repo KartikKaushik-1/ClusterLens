@@ -35,28 +35,28 @@ def intro():
     with col1:
         c1, c2, c3 = st.columns([1.5,2,1])
         with c2:
-            st.image("images/cluster.png", width=70)
+            st.image("Images/cluster.png", width=70)
         st.markdown("<h4 style='text-align:center;'>Segmentation</h4>", unsafe_allow_html=True)
         st.markdown("<p style = 'text-align:center;'>Group your data into meaningful clusters.</p>", unsafe_allow_html=True)
 
     with col2:
         c1, c2, c3 = st.columns([1.5,2,1])
         with c2:
-            st.image("images/profiling.png", width=70)
+            st.image("Images/profiling.png", width=70)
         st.markdown("<h4 style='text-align:center;'>Profiling</h4>", unsafe_allow_html=True)
         st.markdown("<p style = 'text-align:center;'>Learn group behaviors with statistics.</p>", unsafe_allow_html=True)
         
     with col3:
         c1, c2, c3 = st.columns([1.5,2,1])
         with c2:
-            st.image("images/analyzing.png", width=70)
+            st.image("Images/analyzing.png", width=70)
         st.markdown("<h4 style='text-align:center;'>Analyzing</h4>", unsafe_allow_html=True)
         st.markdown("<p style = 'text-align:center;'>Explore comparison using visual insights.</p>", unsafe_allow_html=True)
 
     with col4:
         c1, c2, c3 = st.columns([1.5,2,1])
         with c2:
-            st.image("images/pdf.png", width=70)
+            st.image("Images/pdf.png", width=70)
         st.markdown("<h4 style='text-align:center;'>Download the clusters</h4>", unsafe_allow_html=True)
         st.markdown("<p style = 'text-align:center;'>Generate .csv file of diferent clusters you want.</p>", unsafe_allow_html=True)
 
@@ -86,9 +86,9 @@ tool_page = [openai]
 #--Page Configuration--#
 st.set_page_config(
     page_title = "ClusterLens",
-    page_icon = "images/logo.png",
+    page_icon = "Images/logo.png",
     layout = "wide")
-st.logo("images/logo.png", size = "large", icon_image = "images/logo.png")
+st.logo("Images/logo.png", size = "large", icon_image = "Images/logo.png")
 
 
 #--Page Dictionary--#
