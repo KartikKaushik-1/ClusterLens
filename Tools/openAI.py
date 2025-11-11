@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import io
-from langchain.openai import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.schema import HumanMessage
 
 # ---- Model initialization ----
