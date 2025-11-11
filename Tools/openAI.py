@@ -4,11 +4,14 @@ import io
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 
+import os
+
+
 # ---- Model initialization ----
 model = ChatOpenAI(
     model="openai/gpt-oss-120b",
     temperature=1,
-    openai_api_key="GROQUE_API_KEY=REPLACE_WITH_YOUR_KEY",
+    openai_api_key=os.getenv("OPENAI_API_KEY"),
     openai_api_base="https://api.groq.com/openai/v1"   
 )
 
