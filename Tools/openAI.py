@@ -92,7 +92,7 @@ if st.button("Generate"):
     if uploaded_file:
         if st.session_state.querry.strip():
             
-            prompt = f"{st.session_state.querry}\n\nHere are the rows of the dataset:\n{uploaded_file}"
+            prompt = f"{st.session_state.querry}\n\nOnly from:\n{uploaded_file}"
 
             with st.spinner("Analyzing your query..."):
                 response = model.invoke([HumanMessage(prompt)])
